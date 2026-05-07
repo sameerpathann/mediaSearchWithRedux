@@ -32,7 +32,6 @@ const searchSlice = createSlice({
     },
     setError: (state, action) => {
       state.error = action.payload;
-      state.loading = false;
     },
     setCurrentResult: (state, action) => {
       state.currentResult = action.payload;
